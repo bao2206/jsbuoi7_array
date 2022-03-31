@@ -152,7 +152,7 @@ getEle("btnSwap").onclick = function(){
   else{
     a[input_1] = a[input_2];
     a[input_2] = temp;
-    res = a.join("");
+    res = a.join(', ');
   }
   getEle("footerSwap").innerHTML = res;
 }
